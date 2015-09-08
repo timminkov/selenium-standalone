@@ -4,6 +4,7 @@
   "description": "installs a `selenium-standalone` command line to install and start a standalone selenium server",
   "main": "index.js",
   "scripts": {
+    "postinstall": "./bin/selenium-standalone install",
     "test": "./bin/selenium-standalone install && mocha"
   },
   "bin": {
